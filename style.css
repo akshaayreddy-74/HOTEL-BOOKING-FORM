@@ -1,16 +1,27 @@
-body{
+body {
     background-image: url("outlineresort.jpg");
-    background-attachment:fixed;
-    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
 }
-.container{
+
+/* Center the form properly */
+.container {
     background-color: white;
-    opacity:0.9;
-    margin-right:500px;
-    margin-left:500px;
-    padding:40px;
+    opacity: 0.95;
+    max-width: 500px;
+    margin: 80px auto;   /* centers horizontally */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-.register{
-    margin-left:700px;
+
+/* Register button center */
+.register {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
 }
